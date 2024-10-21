@@ -23,3 +23,12 @@ go.work.sum
 
 # env file
 .env
+
+# vscode
+.vscode
+
+# build
+dist
+
+# other
+.DS_store
