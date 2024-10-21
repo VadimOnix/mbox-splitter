@@ -1,6 +1,6 @@
 # run project
 run:
-	go run src/main/main.go src/assets/sample.mbox
+	go run src/main/main.go mbox_samples/sample.mbox
 
 build:
 	GOOS=linux GOARCH=amd64 go build -o dist/mboxsplit_linux_x86_64 src/main/main.go
